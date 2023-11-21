@@ -25,7 +25,7 @@ using SpecialFunctions
 
     err = abs(got - want)
 
-    @printf("\nln(1 + %.8e) test:\ngot: %.16e\nwant: %.16e\nerror: %.8e\n\n", x, got, want, err)
+    @printf("\nln(1 + %s) test:\ngot: %s\nwant: %s\nerror: %s\n\n", x, got, want, err)
 
     s = -1 + im
     n = 10
